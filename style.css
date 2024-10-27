@@ -1,27 +1,25 @@
-/*algemeen*/
+/*algemeen tekst*/
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    margin: 0.5em;
 }
+
 h1{
     font-family: "Saira Stencil One", sans-serif;
     font-size: 22px;
+    display: flex;
+    justify-content: center;
 }
 h2{
     font-family: "Saira Stencil One", sans-serif;
     font-size: 16px;
+    margin-bottom: 0em;
 }
 h3{
     font-family: "Saira Stencil One", sans-serif;
     font-size: 14px;
-}
-
-.buttons{
-    background-color: #D89122;
-    border-radius: 5px;
-    padding: 0.2em;
-    text-decoration: none;
-    color: #494949;
+    margin-bottom: 0em;
 }
 
 /*navigatiebalk*/
@@ -85,11 +83,15 @@ footer ul,p{
     font-size: 10px;
 }
 
-footer img{
+#footer_image{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 2em;
+}
+
+#footer_image img{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5em;
+    height: 2em;
 }
 
 .juridische_zaken{
@@ -119,21 +121,16 @@ footer a{
     color: black;
 }
 
-/*index*/
-#begin_foto{
-    width: 360px;
-    margin: 0em;
-    opacity: 50%;
+/*algemeen*/
+.buttons{
+    font-size: 10px;
+    color: #494949;
+    background-color: #D89122;
+    border-radius: 5px;
+    padding: 0.8em;
+    text-decoration: none;
 }
-h1{
-    display: flex;
-    justify-content: center;
-}
 
-/*backstory*/
-
-
-/*Studio Hamerhaai*/
 main a{
     font-weight: bold;
     text-decoration: none;
@@ -141,7 +138,38 @@ main a{
 }
 
 main img{
-    width: 200px;
+    width: 9em;
+    padding: 0.8em;
+    border-radius: 10px;
+    margin: 0em 0.5em;
+    background-color: white;
 }
+
+.naast_elkaar{
+    background-color: #d9b991;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 0em 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+/*index*/
+#beginfoto{
+    background-image: url(images/rijkswachters.JPG);
+    background-size:100%;
+    opacity: 50%;
+    padding: 5em;
+}
+
+
+
+/*backstory*/
+
+
+/*Studio Hamerhaai*/
+
+
+
 
 /*about me*/
