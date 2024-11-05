@@ -146,7 +146,7 @@ main a{
 
 main img{
     width: 9em;
-    padding: 0.8em;
+    padding: 0.6em;
     border-radius: 10px;
     margin: 0em 0.5em;
     background-color: white;
@@ -161,7 +161,7 @@ main img{
     align-items: center;
 }
 .naast_elkaar_wit{
-    padding: 0.4em 0.4em;
+    padding: 0em 0.4em;
     border-radius: 10px;
     margin: 0em;
     display: flex;
@@ -184,6 +184,10 @@ main img{
 }
 
 /*Studio Hamerhaai*/
+#wit_ruimte{
+    margin-top: 0em;
+}
+
 .limited_edition{
     background-color: #d9b991;
     border-radius: 10px;
